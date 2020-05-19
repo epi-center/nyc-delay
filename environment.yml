@@ -1,0 +1,19 @@
+name: nycenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - matplotlib
+  - networkx
+  - pip
+  - py-github
+  - python=3.8
+  - scipy
+  - seaborn
+  - xlrd
+
+  - pip:
+      - streamlit
+      - pyprob
+
